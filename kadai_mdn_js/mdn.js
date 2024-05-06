@@ -1,8 +1,10 @@
 const date = () => {
+const today = new Date ('June 6, 2024');
+const year = today.getFullYear();
+const month = today.getMonth();
+const day = today.getDate();
 
-const date = new Date ('9 22, 2023');
-const date1 = date.getDate();
-console.log(date.getFullYear() + '年' + date.getMonth() + '月' + date1 + '日'); 
+console.log(today.getFullYear() + '年' + month + '月' + day + '日'); 
 }
 
 date();
